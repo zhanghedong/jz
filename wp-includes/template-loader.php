@@ -5,7 +5,7 @@
  */
 if ( defined('WP_USE_THEMES') && WP_USE_THEMES )
 	do_action('template_redirect');
-
+echo WP_USE_THEMES.'abc'.defined('WP_USE_THEMES');
 // Process feeds and trackbacks even if not using themes.
 if ( is_robots() ) :
 	do_action('do_robots');

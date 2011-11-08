@@ -15,13 +15,13 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'trade');
 
 /** MySQL 数据库用户名 */
-define('DB_USER', 'username_here');
+define('DB_USER', 'root');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', '');
 
 /** MySQL 主机 */
 define('DB_HOST', 'localhost');
@@ -58,7 +58,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * 如果您有在同一数据库内安装多个 WordPress 的需求，请为每个 WordPress 设置不同的数据表前缀。
  * 前缀名只能为数字、字母加下划线。
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 't_';
 
 /**
  * WordPress 语言设置，中文版本默认为中文。
